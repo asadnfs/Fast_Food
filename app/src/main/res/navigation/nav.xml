@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/menu">
+
+
+    <activity
+        android:id="@+id/menu"
+        android:name="com.xa.food_city_test.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/setting"
+        android:name="com.xa.food_city_test.SettingActivity"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
+</navigation>
